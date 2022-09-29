@@ -1,0 +1,96 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* header start */
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .nav-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav li {
+    margin-right: 20px;
+  }
+  .burgerbar {
+    display: none;
+    font-size: 50px;
+  }
+  /* header end */
+  
+  /* section 1 start */
+  .container {
+    max-width: 1028px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+  }
+  
+  .container > h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+  }
+  
+  .wraper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .left-box {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(240, 99, 99);
+  }
+  
+  .right-box {
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+  }
+  /* section 1 end */
+  
+  /* section 2 start */
+  .section-2 {
+    margin-top: 50px;
+  }
+  .container-2 {
+    width: 100%;
+    max-width: 1028px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .img-wraper {
+    width: 200px;
+  }
+  
+  .img-wraper img {
+    width: 100%;
+  }
+  
+  /* section 2 end */
